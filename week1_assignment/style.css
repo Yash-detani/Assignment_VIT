@@ -49,7 +49,7 @@ html,body{
     text-align: left;
 }
 
-button
+#Check
 {
     position: absolute;
     padding: 20px;
@@ -64,4 +64,8 @@ button:hover
     background-color: orange;
     cursor: pointer;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+table,th,td
+{
+    border: 4px solid black;
 }
